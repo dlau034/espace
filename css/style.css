@@ -1,0 +1,82 @@
+body {
+	font-family: 'Arvo', serif;
+}
+.navbar-fixed-top {
+	//top:4em;
+}
+
+.main-image {
+	background-image: url('../images/main-image.jpeg');
+	background-size: 100%;
+}
+
+.featured-item {
+	//background: gold;
+}
+
+.carousel-caption {
+bottom:15em;
+width:60%;
+background: none;
+}
+
+p.blurb {
+	font-size:150%;
+	line-height:120%;
+}
+
+h1 {
+	font-size:60px;
+	line-height:100%;
+}
+.container {
+	z-index: 1;
+}
+
+div.overlap {
+	z-index:400;
+	position: relative;
+	top:-1em;
+}
+
+
+/*Functional Styles*/
+.right {
+	float: right !important;
+	text-align: right !important;
+}
+
+.left {
+	float: left;
+	text-align: left;
+}
+
+.center {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+
+.text-shadow {
+	-moz-text-shadow: 3px 3px 7px black;
+	-box-text-shadow: 3px 3px 7px black;
+	text-shadow: 3px 3px 7px black;
+}
+
+.white {
+	color: white;
+}
+
+.orange {
+	background: orange;
+}
+
+.margin-gap {
+	margin: 1em;
+}
+
+.btn-large {
+	width:50%;
+	font-size:3em;
+	padding:.7em;
+}
