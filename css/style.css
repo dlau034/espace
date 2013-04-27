@@ -13,11 +13,6 @@ form {
 	//top:4em;
 }
 
-.main-image {
-	background-image: url('../images/main-image.jpeg');
-	background-size: 100%;
-}
-
 .featured-item {
 	-webkit-box-shadow: inset 0 0 5px #000000;
 	-moz-box-shadow: inset 0 0 5px #000000;
@@ -28,16 +23,6 @@ form {
 	padding: .5em;
 }
 
-.carousel-caption {
-bottom:15em;
-width:60%;
-background: none;
-}
-
-p.blurb {
-	font-size:150%;
-	line-height:120%;
-}
 
 h1 {
 	font-size:60px;
@@ -48,12 +33,6 @@ h3 {
 	line-height: 100%;
 	font-weight: normal;
 }
-span {
-	margin: .2em;
-}
-span.capacity {
-	font-weight: bold;
-}
 
 .container {
 	z-index: 1;
@@ -63,12 +42,6 @@ div.overlap {
 	z-index:400;
 	position: relative;
 	top:-1em;
-}
-span.capacity, span.byline {
-	display: block;
-}
-span.byline {
-	color: gray;
 }
 
 img {

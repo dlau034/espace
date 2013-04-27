@@ -1,0 +1,15 @@
+.main-image {
+	background-image: url('../images/main-image.jpeg');
+	background-size: 100%;
+}
+
+.carousel-caption {
+bottom:15em;
+width:60%;
+background: none;
+}
+
+p.blurb {
+	font-size:150%;
+	line-height:120%;
+}
