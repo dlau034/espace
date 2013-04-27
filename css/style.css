@@ -1,8 +1,13 @@
 body {
 	font-family: 'Arvo', serif;
 }
+
+/*Menu*/
 form {
 	padding:1em;
+}
+.container {
+	//margin-top: 1em;
 }
 .navbar-fixed-top {
 	//top:4em;
@@ -14,7 +19,13 @@ form {
 }
 
 .featured-item {
-	//background: gold;
+	-webkit-box-shadow: inset 0 0 5px #000000;
+	-moz-box-shadow: inset 0 0 5px #000000;
+	box-shadow: inset 0 0 5px #000000;
+}
+
+.content {
+	padding: .5em;
 }
 
 .carousel-caption {
@@ -32,6 +43,18 @@ h1 {
 	font-size:60px;
 	line-height:100%;
 }
+
+h3 {
+	line-height: 100%;
+	font-weight: normal;
+}
+span {
+	margin: .2em;
+}
+span.capacity {
+	font-weight: bold;
+}
+
 .container {
 	z-index: 1;
 }
@@ -41,6 +64,18 @@ div.overlap {
 	position: relative;
 	top:-1em;
 }
+span.capacity, span.byline {
+	display: block;
+}
+span.byline {
+	color: gray;
+}
+
+img {
+	max-width:100%;
+}
+
+
 
 
 /*Functional Styles*/
