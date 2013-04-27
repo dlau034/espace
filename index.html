@@ -6,7 +6,7 @@
 	<link href="css/bootstrap-responsive.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-	<title>Espace.co</title>
+		<title>Espace.co</title>
 </head>
 
 <body>
@@ -35,13 +35,27 @@
               <li class="">
                <a href="#" class="brand">Espace.co</a>
               </li>
-              <li class="dropdown-toggle">
-                <a href="./getting-started.html" class="right">Register</a>
+              <li class="right">
+                <a href="#">Register</a>
               </li>
-              <li class="right" style="list-style-position: outside;">
-                <a href="./getting-started.html">Login</a>
-              </li>
+              <li class="dropdown">
+         		 <a href="#" class="dropdown-toggle">Login</a>
+         		 <ul class="dropdown-menu">
+         		 	<form>
+         		 		<label class="username">Email</label>
+         		 		<input type="text" name="username"/>
+         		 		<label class="username">Password</label>
+         		 		<input type="text" name="username"/>
+         		 		<button class="btn-primary pull-right orange">Log in &raquo;</button>
+         		 		<br />
+         		 		<a href="#">Forgot password?</a>
+         		 	</form>
+         		   
+        	     </ul>
+     		   </li>
             </ul>
+
+            
 
             
       </div>
@@ -76,5 +90,15 @@
 </div><!--row-->
 </div>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/bootstrap-dropdown.js"></script>
+<script>
+$(document).ready(function(){
+$('.dropdown-toggle').dropdown();
+$('.dropdown-menu').click(function(event) {
+	event.stopPropagation();
+	});
+});
+</script>
 </body>
 </html>

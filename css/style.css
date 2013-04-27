@@ -1,6 +1,9 @@
 body {
 	font-family: 'Arvo', serif;
 }
+form {
+	padding:1em;
+}
 .navbar-fixed-top {
 	//top:4em;
 }
