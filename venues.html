@@ -4,7 +4,7 @@
 	<meta name="description" content="We connect meetups with venues.">
 	<link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/venue.css" rel="stylesheet">
+    <link href="css/venues.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 		<title>Espace.co Venues</title>
 </head>
@@ -67,6 +67,8 @@
 <div class="container">
 <div class="row">
 
+    <div id="box">
+
    <div class="span4 featured-item">
         <div class="populated-image">
         <img src="http://placehold.it/350x350"/>
@@ -101,7 +103,7 @@
  <div class="span4 featured-item">
         
          <div class="populated-image">
-        <img src="http://placehold.it/350x350"/>
+        <img src="http://placehold.it/350x550"/>
         </div>
         <div class="content">
         <h3>Lorem ipsum dolor sit</h3>
@@ -117,7 +119,7 @@
 <div class="span4 featured-item">
         
          <div class="populated-image">
-        <img src="http://placehold.it/350x350"/>
+        <img src="http://placehold.it/350x150"/>
         </div>
         <div class="content">
         <h3>Lorem ipsum dolor sit</h3>
@@ -133,7 +135,7 @@
   <div class="span4 featured-item">
         
          <div class="populated-image">
-        <img src="http://placehold.it/350x350"/>
+        <img src="http://placehold.it/350x550"/>
         </div>
         <div class="content">
         <h3>Lorem ipsum dolor sit</h3>
@@ -149,7 +151,7 @@
   <div class="span4 featured-item">
         
          <div class="populated-image">
-        <img src="http://placehold.it/350x350"/>
+        <img src="http://placehold.it/350x450"/>
         </div>
         <div class="content">
         <h3>Lorem ipsum dolor sit</h3>
@@ -176,18 +178,41 @@
         </div>
     </div>
 
+
+</div><!--box-->
 </div><!--row-->
 </div><!--container-->
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 <script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/bootstrap-dropdown.js"></script>
+<script type="text/javascript" src="masonry.js"></script>
 <script>
 $(document).ready(function(){
 $('.dropdown-toggle').dropdown();
 $('.dropdown-menu').click(function(event) {
 	event.stopPropagation();
 	});
+/*
+$('#box').masonry({
+  itemSelector: '.featured-item',
+  columnWidth: 200
 });
+*/
+
+ $(function(){
+
+    var $container = $('#box');
+  
+    $container.imagesLoaded( function(){
+      $container.masonry({
+        itemSelector : '.featured-item'
+      });
+    });
+  
+  });
+});
+
+
 </script>
 </body>
 </html>
