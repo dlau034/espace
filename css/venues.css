@@ -8,12 +8,24 @@ span.capacity {
 span.capacity, span.byline {
 	display: block;
 }
-
-
 span.byline {
 	color: gray;
 }
+<<<<<<< HEAD
 
 .featured-item {
 	margin-bottom:1em;
 }
+=======
+.featured-item {
+	margin-bottom:2em;
+	background-color: white;
+}
+#box {
+	margin-top: 5em;
+}
+.detail_text {
+	background-color: white;
+}
+
+>>>>>>> David Commit Midnight
