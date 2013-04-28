@@ -13,3 +13,7 @@ span.capacity, span.byline {
 span.byline {
 	color: gray;
 }
+
+.featured-item {
+	margin-bottom:1em;
+}
