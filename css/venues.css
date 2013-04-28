@@ -11,12 +11,6 @@ span.capacity, span.byline {
 span.byline {
 	color: gray;
 }
-<<<<<<< HEAD
-
-.featured-item {
-	margin-bottom:1em;
-}
-=======
 .featured-item {
 	margin-bottom:2em;
 	background-color: white;
@@ -28,4 +22,4 @@ span.byline {
 	background-color: white;
 }
 
->>>>>>> David Commit Midnight
+
